@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+body{
+    background-color: azure;
+}
+
+.container{
+    background-color: rgb(141, 190, 190);
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    background-color: rgb(49, 97, 97);
+}
+
+.navbar-brand, .nav-link{
+    color: rgb(255, 255, 226);
+    margin-left: 15%;
+}
+
+.navbar-brand{
+    font-family: "Agbalumo", Caveat, cursive, sans-serif;
+}
+
+.nav-item{
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    background-color: rgb(62, 114, 114);
+    color: rgb(216, 216, 216);
+    height: 100%;
+}
+
+.btn-sm{
+    background-color: rgb(49, 97, 97);
+}
+
+.form-control{
+    width: 35rem;
+    height: 40px;
+    /* margin-left: 6%; */
+}
+
+.cart{
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-form{
+    margin: 0 35% 0 30%;
+}
+
+.cap{
+    border-radius: 5%;
+    margin: 10% 30% 0 35%;
+    text-align: center;
+    background-color:  rgb(91, 144, 144);
+}
+
+.tab{
+    padding-left: 5%;
+}

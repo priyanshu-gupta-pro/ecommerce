@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+body{
+    background-color: azure;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    background-color: rgb(49, 97, 97);
+}
+
+.navbar-brand, .nav-link{
+    color: rgb(255, 255, 226);
+    margin-left: 3%;
+}
+
+.navbar-brand{
+    font-family: "Agbalumo", Caveat, cursive, sans-serif;
+}
+
+.nav-item{
+    margin-left: 3%;
+    display: flex;
+    font-size: large;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    margin-right: 8%;
+    background-color: rgb(62, 114, 114);
+    color: rgb(216, 216, 216);
+
+}
+
+.btn-sm{
+    background-color: rgb(49, 97, 97);
+    color: beige;
+    /* border: none; */
+}
+
+.form-control{
+    width: 50rem;
+    height: 2.9rem;
+    margin-left: 5%;
+}
+
+.cart{
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar-collapse{
+display: flex;
+justify-content: space-evenly;
+}
+
+.breadcrumb{
+    background-color: rgb(91, 144, 144);
+    align-items: center;
+    padding-left: 1.2%;
+    font-size: 0.95rem;
+    color: beige;
+}
+
+.breadcrumb-item:hover{
+    color: rgb(49 , 97, 97);
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.carousel-inner{
+    height: 100%;
+}
+
+.slide{
+    height: 100%;
+}
+
+.prod{
+    padding: 10% 10% 10% 10%;
+}
+
+.text-center{
+    margin-top: 2.5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.overlay{
+    padding-left: 25%;
+}
+
+.card-body{
+    padding: 0 100px 0 70px;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.cont{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#footer{
+    background-color: rgb(40, 86, 86);
+    color: beige;
+}
+
+#footer a:hover { 
+	text-decoration: underline; 
+} 
+
+.fc{
+    width: 60%;
+}
+
+.border{
+    border: 20px solid black;
+    padding: 5%;
+    background-color:  rgb(167, 197, 197);
+}
